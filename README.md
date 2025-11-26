@@ -4,10 +4,10 @@
 
 A minimal Spring Boot application exposing a single endpoint to greet users based on input rules.
 
-Endpoint
+### Endpoint
 - GET /hello-world?name=alice
 
-Behavior
+### Behavior
 1. If the first letter of name is in A–M (case-insensitive):
    - 200 OK, body: { "message": "Hello Alice" }
 2. If the first letter is in N–Z (case-insensitive):
@@ -15,13 +15,13 @@ Behavior
 3. If name is missing, empty, or does not start with a letter:
    - 400 Bad Request, body: { "error": "Invalid Input" }
 
-Tech stack
+### Tech stack
 - Java 21
 - Spring Boot 3.3.5 (spring-boot-starter-web)
 - Maven
 - JUnit 5 + Spring Test
 
-How to run
+### How to run
 1. Build and run tests:
    - mvn clean verify
 2. Run the application:
@@ -29,10 +29,10 @@ How to run
 3. Try it:
    - curl 'http://localhost:8080/hello-world?name=alice'
 
-How to run tests
+### How to run tests
 - mvn test
 
-Design notes and assumptions
+## Design notes and assumptions
 - Clean code and patterns:
   - Controller delegates to a GreetingService and a NameValidationService.
   - Validation uses the Strategy/Chain-of-Responsibility pattern via HelloValidationRule implementations:
