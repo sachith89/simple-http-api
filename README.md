@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml/badge.svg)](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml)
+
 # Simple HTTP API
 
 A minimal Spring Boot application exposing a single endpoint to greet users based on input rules.
