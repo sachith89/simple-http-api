@@ -1,4 +1,4 @@
-[![Java CI with Maven](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml/badge.svg)](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml)
+[![Unit Tests](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml/badge.svg)](https://github.com/sachith89/simple-http-api/actions/workflows/maven.yml)
 
 # Simple HTTP API
 
