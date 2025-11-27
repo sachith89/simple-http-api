@@ -1,6 +1,5 @@
-package dev.sachith.simplehttpapi.service.validation;
+package dev.sachith.simplehttpapi.validation;
 
-import dev.sachith.simplehttpapi.validation.AlphabetHalfValidationRule;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
