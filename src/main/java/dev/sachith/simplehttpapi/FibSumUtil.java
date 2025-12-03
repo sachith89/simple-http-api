@@ -36,7 +36,6 @@ public class FibSumUtil {
         while (evenCurrent <= limit) {
             sum += evenCurrent;
 
-            // E(n) = 4 * E(n-1) + E(n-2)
             long nextEven = 4 * evenCurrent + evenPrevious;
 
             evenPrevious = evenCurrent;
@@ -46,14 +45,4 @@ public class FibSumUtil {
         return sum;
     }
 
-//    public static void main(String[] args) {
-//        FibSumUtil fibSumUtil = new FibSumUtil();
-//        System.out.println("FibSum(5) = " + FibSumUtil.fibSumImproved(5));   // Expected: 2
-//        System.out.println("FibSum(8) = " + FibSumUtil.fibSumImproved(8));   // Expected: 10
-//        System.out.println("FibSum(9) = " + FibSumUtil.fibSumImproved(9));   // Expected: 10
-//        System.out.println("FibSum(20) = " + FibSumUtil.fibSumImproved(20)); // Expected: 10
-//        System.out.println("FibSum(36) = " + FibSumUtil.fibSumImproved(36)); // Expected: 44
-//        System.out.println("FibSum(5000) = " + FibSumUtil.fibSumImproved(5000)); // Expected: 3382
-//
-//    }
 }
