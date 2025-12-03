@@ -1,0 +1,19 @@
+The Fibonacci Sequence is an infinite series that begins with 0, 1, 1,
+and then each successive integer is the sum of the previous two integers.
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+
+
+Create a function that takes a parameter and sums all of the even
+numbers in the Fibonacci Sequence up to and including the parameter.
+
+Examples:
+
+FibSum(5) = 2
+FibSum(8) = 10
+FibSum(9) = 10
+
+FibSum(20) = 10
+
+FibSum(36) = 44
+

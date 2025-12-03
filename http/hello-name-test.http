@@ -1,0 +1,17 @@
+
+### Whe pass a param between A-M we should get result
+GET http://localhost:8080/hello-world?
+    name=alice
+
+###
+GET http://localhost:8080/hello-world?
+    name=Franky
+
+
+### Whe pass a param between N-Z we should get invalid inout
+GET http://localhost:8080/hello-world?
+    name=niomi
+
+###
+GET http://localhost:8080/hello-world?
+    name=zoro
