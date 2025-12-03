@@ -22,13 +22,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 class HelloWorldControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;
+     MockMvc mockMvc;
 
     @MockBean
-    private HelloValidationService validationService;
+     HelloValidationService validationService;
 
     @MockBean
-    private GreetingService greetingService;
+     GreetingService greetingService;
 
     @Test
     @DisplayName("Returns 200 and message for names A-M")
